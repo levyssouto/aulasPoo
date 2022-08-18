@@ -1,0 +1,48 @@
+public class Ex1 {
+
+    public static void main(String[] args) {
+
+
+
+
+        if (args.length==3) {
+            System.out.println(args[0]+" que");
+            System.out.println(args[1]+" é");
+            System.out.println(args[2]);
+
+        }
+    }
+
+}
+
+
+
+
+
+public class Exercicio2 {
+
+    public static void main(String[] args){
+
+        System.out.println("argumento 1 " + args[0]);
+        System.out.println("argumento 2 " + args[1]);
+
+        int maior = 0;
+        int menor = 0;
+        int num1 = Integer.parseInt(args[0]);
+        int num2 = Integer.parseInt(args[1]);
+        if(num1>num2){
+            maior = num1;
+            menor = num2;
+
+        }else{
+            maior = num2;
+            menor = num1;
+        }
+        System.out.println("maior é " + maior + "e menor é " + menor);
+        System.out.println("resultado subtração " + String.valueOf(maior - menor));
+
+    }
+
+
+
+}

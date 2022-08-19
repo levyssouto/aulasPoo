@@ -1,0 +1,93 @@
+package aula1;
+
+public class Carro {
+	
+	
+	
+      
+		
+		double odometro;
+		double tempo;
+		double tanque;
+		double consumo_Medio;
+		double litros;
+		double velocidade_Media;
+		
+		public Carro(double odometro, double tempo,
+				double consumo_Medio,double litros,double velocidade_Media,double tanque) {
+			
+			this.odometro = odometro;
+			this.consumo_Medio = consumo_Medio;
+			this.tempo = tempo;
+			this.litros = litros;
+			this.velocidade_Media = velocidade_Media;
+			this.tanque = tanque;
+		}
+		
+		
+		public double acelerar(double vm, double tempo) {//recebe consumo m�dio e tempo
+			double distancia = vm * tempo; 
+			return odometro +=distancia;
+		}
+		
+		public void setarVelocidade(double tempo, double velocidade_Media) {
+			double distancia = velocidade_Media * tempo;
+			double litros = distancia/velocidade_Media;
+			this.odometro += distancia;
+			this.tanque -= litros;
+		}
+		
+		
+	
+		
+		
+	}
+
+
+
+
+
+
+
+package aula1;
+
+import java.util.Scanner;
+
+public class Aula {
+
+	public static void main(String[] args) {
+		
+		Scanner sc  = new Scanner(System.in);
+		
+		double odometro = 20000.0;
+		System.out.println("informe o consumo m�dio");
+		double consumo_Medio = sc.nextDouble();//km/h//capacidade do tanque
+		System.out.println("quantos litros possui no tanque");
+		double litros = sc.nextDouble();
+		double tempo = 0;
+		double velocidade_Media=0;
+		int tanque = 160;
+		Carro carro1 = new Carro(odometro,consumo_Medio,litros,tempo,velocidade_Media,tanque);
+		
+		
+		int i=0;
+		for(i=0;i>20;i++) {
+			if(litros<0)
+				break;
+			System.out.println("Tanque vazio");
+			
+			
+				System.out.println("Informe quanto tempo o carro percorreu");
+				tempo = sc.nextDouble();
+				System.out.println("informe a velocidade m�dia: ");
+				velocidade_Media = sc.nextDouble();
+		
+				carro1.setarVelocidade(tempo, velocidade_Media);
+				System.out.println(litros);
+				System.out.println(odometro);
+		if(litros>tanque) 
+			break;
+		
+				
+			
+		}

@@ -7,7 +7,7 @@ public class EX5 {
         System.out.println(pessoa1.calculaImposto(pessoa1.rendimentos));
 
         System.out.println("Rendimentos de PF" + pessoa2.nome);
-        System.out.println(pessoa2.calculaImpost(pessoa2.rendimentos));
+        System.out.println(String.format("%,.2f",pessoa2.calculaImpost(pessoa2.rendimentos)));
 
 
     }

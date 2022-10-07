@@ -19,8 +19,11 @@ public class Exercicio8 {
         System.out.println("Lança chamas:" + trevor.infos());
 
         Arma [] armas = {adaga,eagle,trevor};
+        Arma [] armas_ord = ordenaArmas(armas);
 
-        System.out.println(ordenaArmas(armas));
+        for(Arma p : armas_ord) {
+            System.out.println(p.destruicao);
+        }
 
 
 
@@ -45,3 +48,4 @@ public static Arma[] ordenaArmas(Arma[] armas){
 
 
 }
+

@@ -1,0 +1,14 @@
+● Teste as classes e interfaces implementadas em
+um método main, criando um objeto de cada
+classe, e 3 métodos
+– agredir(Arma a) que deverá exibir o resultado do golpear
+de cada arma
+– atirar(Disparavel d) que deverá invocar o método
+disparar dos objetos Disparáveis
+– reload(Disparavel d) que deverá invocar o método
+recarregar dos objetos Disparáveis
+– Invoque aleatoriamente esses métodos e ao final exiba
+as informações de destruição, cartucho e gás de cada
+objeto disparável
+
+

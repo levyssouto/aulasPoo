@@ -1,9 +1,0 @@
-Implemente a operação mod (retorno do
-resto da divisão), utilizando a tecla “%” (cod
-ascii 37) para representar o mod. Atenção
-para a divisão por zero também.
-● Trate as entradas de dados, caso digite um
-caracter ou String quando o programa solicita
-um número, qual a Exceção será lançada?
-Trate a exceção dando uma mensagem
-amigável ao usuário

@@ -1,0 +1,8 @@
+● Crie a classe Exercicio6, com o método
+main( ), onde o usuário informará pelo
+teclado qual produto deseja registrar (1-
+Livro, 2- DVD), depois entrará com os dados
+do produto. Deve fazer isso 3 vezes
+seguidas, ao final o programa deverá
+informar a somatória do valor líquido de
+todos os produtos inseridos.

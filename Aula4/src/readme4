@@ -1,0 +1,13 @@
+● Exercício
+– Faça um programa para controlar um tanque, onde deve
+ser definido seu volume máximo, seu volume mínimo e
+seu volume atual deve ser controlado através dos métodos
+encher e esvaziar. Deve possuir um bomba que
+liga/desliga. Liga quando atinge a capacidade mínima, e
+desliga quando atinge a máxima. Deve possuir um método
+para exibir o volume atual do tanque, e o estado da Bomba
+Ligada/Desligada
+– Deve ter seus atributos encapsulados
+– Deve ter um método main em outra classe, que irá
+instanciar o tanque, com a capacidade min e máx do
+tanque.

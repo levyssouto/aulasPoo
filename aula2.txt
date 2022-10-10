@@ -1,3 +1,19 @@
+//
+Exercícios
+1) Adapte a classe Carro que agora além do
+consumo médio, o construtor deverá informar
+quantos litros estão no tanque.
+2) O seu programa agora deverá perguntar ao
+usuário qual o consumo médio do carro, e
+quantos litros ele possui no tanque. Depois
+deve entrar em um loop perguntando qual a
+velocidade média e quanto tempo o carro
+permaneceu nela, cada vez informado deverá
+exibir o tanque e o odometro. Deverá sair do
+loop quando o tanque esvaziar.
+
+//
+
 package aula1;
 
 public class Carro {

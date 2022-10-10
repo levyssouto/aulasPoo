@@ -1,0 +1,16 @@
+Continuando o projeto da última aula,
+implemente na classe Arma a interface
+Comparable, para comparar o poder de
+destruição.
+CONTINUAÇÂO
+Exercícios
+● Dentro da classe principal do projeto, no
+método main()
+– Instancie 3 objetos de Armas diferentes,
+adicione-os a um vetor de Armas.
+– Crie uma função ordenarArmas fora do método
+main para receber o vetor de Armas e retornar
+um vetor ordenado de maior para menor quanto
+ao poder de destruiçao
+– Exiba o poder de destruição de cada arma no
+vetor após a ordenação no método main

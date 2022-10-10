@@ -1,0 +1,10 @@
+● Crie uma classe Pessoa, com os atributos (nome,
+endereço e rendimentos). Crie uma classe PJ
+que herda os atributos de Pessoa, e possui o
+atributo cnpj, e o método calcularImposto que
+retorna o 18% do rendimentos.
+● Crie também uma classe PF que herda os
+atributos de pessoa, e possui o método
+calcularImposto que retorna 11% dos redimentos,
+se os redimentos forem abaixo de 3000,00, e
+27,5% dos rendimentos se for acima de 3000,00

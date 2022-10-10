@@ -1,3 +1,21 @@
+//1) Faça um programa que deve receber na
+sequência 3 parâmetros (1 nome próprio, 1
+verbo e 1 substantivo). O programa deve
+montar uma frase a sua escolha de forma a
+receber esses 3 parâmetros. Caso recebe
+uma quantidade de parâmetros inferior, ou
+superior a este, deve exibir uma mensagem
+informando quais parâmetros devem ser
+passados.
+Exercícios
+2) Faça um programa que recebe dois
+parâmetros numéricos, e você deve exibir
+na tela qual é o maior, qual é o menor, e
+realizar a subtração do maior pelo menor,
+exibindo o resultado na tela//
+
+
+
 public class Ex1 {
 
     public static void main(String[] args) {

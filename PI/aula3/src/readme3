@@ -1,0 +1,8 @@
+Crie uma classe que retorna o valor da
+constante matemática PI em vários formatos
+primitivos. Faça a adequação necessária
+para que não haja estouro de casas
+decimais.
+● No método main( ) crie uma lógica com uma
+escolha do usuário para a exibição do valor
+de PI.
